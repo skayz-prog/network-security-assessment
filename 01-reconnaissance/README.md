@@ -33,4 +33,14 @@ Results will be documented after completing the reconnaissance activities.
 
 ## Status
 
-🟡 In Progress
+---
+
+## Finding 1 - robots.txt
+
+### Objective
+
+Identify information exposed through the website's `robots.txt` file.
+
+### Command
+
+$curl http://target.ine.local/robots.txt
