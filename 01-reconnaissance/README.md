@@ -63,8 +63,6 @@ Option -A Enable OS detection, version detection, script scanning, and tracerout
 **http-generator: WordPress 6.5.3 - FL@G2{XXXXXXXXXXX}** 
 
 
-
-
 ## Finding 3 - Directory Listing
 
 ### Objective
@@ -77,5 +75,18 @@ DIRB
 
 ### Command
 
-```bash
-dirb http://<TARGET_IP>
+$dirb http://<TARGET_IP>
+
+## Finding 4 - WordPress Configuration Backup
+
+### Objective
+
+Identify publicly accessible backup files that may expose sensitive configuration information.
+
+### Tool
+
+WPScan
+
+### Command
+
+$wpscan --url http://target.ine.local
