@@ -63,6 +63,8 @@ Option -A Enable OS detection, version detection, script scanning, and tracerout
 **http-generator: WordPress 6.5.3 - FL@G2{XXXXXXXXXXX}** 
 
 
+
+
 ## Finding 3 - Directory Listing
 
 ### Objective
