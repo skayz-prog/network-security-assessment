@@ -58,5 +58,21 @@ Nmap
 
 ### Command
 
-```bash
 nmap -A <TARGET_IP>
+
+---
+
+## Finding 3 - Directory Listing
+
+### Objective
+
+Identify publicly accessible directories and files on the target web server.
+
+### Tool
+
+DIRB
+
+### Command
+
+```bash
+dirb http://<TARGET_IP>
