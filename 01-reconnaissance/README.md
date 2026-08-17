@@ -43,4 +43,20 @@ Identify information exposed through the website's `robots.txt` file.
 
 ### Command
 
-$curl http://target.ine.local/robots.txt
+$curl http://<TARGET_IP>/robots.txt
+
+
+## Finding 2  - Web Technology Identification
+
+### Objective
+
+Identify the web application technology and version running on the target.
+
+### Tool
+
+Nmap
+
+### Command
+
+```bash
+nmap -A <TARGET_IP>
