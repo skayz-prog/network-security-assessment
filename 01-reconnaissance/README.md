@@ -47,6 +47,7 @@ $curl http://<TARGET_IP>/robots.txt
 ### Objective
 
 Identify the web application technology and version running on the target.
+We can find http-generator: Web Application Technology (i.e.WordPress 6.5.3) 
 
 ### Tool
 
@@ -55,8 +56,12 @@ Nmap
 ### Command
 
 nmap -A <TARGET_IP>
+Option -A Enable OS detection, version detection, script scanning, and traceroute
 
----
+**RESULTS**
+
+**http-generator: WordPress 6.5.3 - FL@G2{XXXXXXXXXXX}** 
+
 
 ## Finding 3 - Directory Listing
 
