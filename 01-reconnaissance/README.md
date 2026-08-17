@@ -90,3 +90,32 @@ WPScan
 ### Command
 
 $wpscan --url http://<TARGET_IP>
+
+
+## Finding 5 - Mirrored Website Content Analysis
+
+### Objective
+
+Identify potentially interesting information contained within the website by creating a local mirror.
+
+### Tool
+
+HTTrack
+
+### Command
+
+$httrack
+
+**OUTPUT**
+A cache (hts-cache/) has been found in the directory 
+That means that a transfer has been aborted
+OK to Continue httrack httrack?
+
+Press <Y><Enter> to confirm, <N><Enter> to abort 
+
+**DIGIT Y**
+Enter the information and mirror the website. By default the folder is root/websites/name of the project
+Once inside digit the follow command:
+
+### Command
+$grep -r "FLAG" 
