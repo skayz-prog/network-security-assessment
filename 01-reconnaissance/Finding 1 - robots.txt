@@ -1,0 +1,5 @@
+Objective
+Identify information exposed through the website's robots.txt file.
+
+Command
+$curl http://<TARGET_IP>/robots.txt
