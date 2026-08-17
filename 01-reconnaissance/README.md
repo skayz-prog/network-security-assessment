@@ -89,4 +89,4 @@ WPScan
 
 ### Command
 
-$wpscan --url http://target.ine.local
+$wpscan --url http://<TARGET_IP>
