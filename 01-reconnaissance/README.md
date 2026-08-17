@@ -31,10 +31,6 @@ No exploitation is performed during this phase.
 
 Results will be documented after completing the reconnaissance activities.
 
-## Status
-
----
-
 ## Finding 1 - robots.txt
 
 ### Objective
